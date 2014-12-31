@@ -1,1 +1,1 @@
-Check out the blog post here ->
+Check out the blog post here -> http://mherman.org/blog/2014/12/31/node-and-mongoose-a-primer/#.VKPDdGTF98s

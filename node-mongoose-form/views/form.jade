@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  //- passed into layout.jade when form.jade is rendered
+  block content
+    h1= title
+    form(method="post" action="/create")
+      label(for="comment") Got something to say:
+      input(type="text", name="comment", value=comment)
+      input(type="submit", value="Save")
+    br
+    - for comment in comments
+      p= comment.title
